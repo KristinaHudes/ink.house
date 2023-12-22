@@ -1,0 +1,146 @@
+[
+  {
+    "country": "France",
+    "url": "../assets/img/img-france-01.jpg",
+    "author": "Marcel Rousseau",
+    "name": "Cupid's Hunting",
+    "materials": "Oil on canvas (50x80)",
+    "price": "14 500"
+  },
+  {
+    "country": "France",
+    "url": "../assets/img/img-france-02.jpg",
+    "author": "Henri Céline",
+    "name": "Lady with a Dog",
+    "materials": "Acrylic on Paper (50x80)",
+    "price": "16 500"
+  },
+  {
+    "country": "France",
+    "url": "../assets/img/img-france-03.jpg",
+    "author": "François Dupont",
+    "name": "Procedure",
+    "materials": "Chromolithography (40x60)",
+    "price": "20 000"
+  },
+  {
+    "country": "France",
+    "url": "../assets/img/img-france-04.jpg",
+    "author": "Louis Détouche",
+    "name": "Rose",
+    "materials": "Acrylic on Paper (50x80)",
+    "price": "12 000"
+  },
+  {
+    "country": "France",
+    "url": "../assets/img/img-france-05.jpg",
+    "author": "François Dupont",
+    "name": "Birds' Meal",
+    "materials": "Chromolithography (40x60)",
+    "price": "22 500"
+  },
+  {
+    "country": "France",
+    "url": "../assets/img/img-france-06.jpg",
+    "author": "Pierre Moranges",
+    "name": "Fish in a Landscape",
+    "materials": "Chromolithography (40x60)",
+    "price": "20 000"
+  },
+  {
+    "country": "Germany",
+    "url": "../assets/img/img-germany-01.jpg",
+    "author": "Curt Werner",
+    "name": "Over the City",
+    "materials": "Chromolithography (40x60)",
+    "price": "16 000"
+  },
+  {
+    "country": "Germany",
+    "url": "../assets/img/img-germany-02.jpg",
+    "author": "Max Richter",
+    "name": "Over the City",
+    "materials": "Oil on canvas (50x80)",
+    "price": "14 500"
+  },
+  {
+    "country": "Germany",
+    "url": "../assets/img/img-germany-03.jpg",
+    "author": "Martin Mayer",
+    "name": "Among the Leaves",
+    "materials": "Chromolithography (40x60)",
+    "price": "20 000"
+  },
+  {
+    "country": "Germany",
+    "url": "../assets/img/img-germany-04.jpg",
+    "author": "Herman Becker",
+    "name": "Bright Bird",
+    "materials": "Chromolithography (40x60)",
+    "price": "13 000"
+  },
+  {
+    "country": "Germany",
+    "url": "../assets/img/img-germany-05.jpg",
+    "author": "Wolf Bauer",
+    "name": "Woodpeckers",
+    "materials": "Acrylic on Paper (50x80)",
+    "price": "20 000"
+  },
+  {
+    "country": "Germany",
+    "url": "../assets/img/img-germany-06.jpg",
+    "author": "Walter Hartmann",
+    "name": "Big Waters",
+    "materials": "Acrylic on Paper (50x80)",
+    "price": "23 000"
+  },
+  {
+    "country": "England",
+    "url": "../assets/img/img-england-01.jpg",
+    "author": "Paul Smith",
+    "name": "Wild Animal",
+    "materials": "Watercolor Painting (50x80)",
+    "price": "19 500"
+  },
+  {
+    "country": "England",
+    "url": "../assets/img/img-england-02.jpg",
+    "author": "John White",
+    "name": "Rocky Shore",
+    "materials": "Chromolithography (40x60)",
+    "price": "17 500"
+  },
+  {
+    "country": "England",
+    "url": "../assets/img/img-england-03.jpg",
+    "author": "Jim Watson",
+    "name": "River and Mountains",
+    "materials": "Watercolor Painting (50x80)",
+    "price": "20 500"
+  },
+  {
+    "country": "England",
+    "url": "../assets/img/img-england-04.jpg",
+    "author": "Eugene Zillion",
+    "name": "White Parrot",
+    "materials": "Chromolithography (40x60)",
+    "price": "15 500"
+  },
+  {
+    "country": "England",
+    "url": "../assets/img/img-england-05.jpg",
+    "author": "Eric Gillman",
+    "name": "Nocturnal Fish",
+    "materials": "Acrylic on Paper (50x80)",
+    "price": "12 500"
+  },
+  {
+    "country": "England",
+    "url": "../assets/img/img-england-06.jpg",
+    "author": "Alfred Burr",
+    "name": "Ginger Cat",
+    "materials": "Chromolithography (40x60)",
+    "price": "21 000"
+  }
+]

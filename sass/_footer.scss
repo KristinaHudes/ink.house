@@ -1,0 +1,105 @@
+.footer {
+  background-color: $color-primary;
+
+  .container {
+    padding: 2.3rem 4rem;
+  }
+
+  .grid {
+    gap: 6rem;
+  }
+
+  .grid-cols--5 {
+    grid-template-columns: 2.2fr repeat(3, 1fr) 3fr;
+  }
+
+  &__col {
+    &:first-child {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      div {
+        &:last-child {
+          margin-top: auto;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+
+    &:last-child {
+      margin-left: auto;
+    }
+
+    .logo-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+
+  &__tel {
+    margin-top: auto;
+    margin-bottom: 0.8rem;
+    color: $color-gray-main;
+  }
+
+  &__col-heading {
+    color: $color-gray-main;
+    margin-bottom: 0.6rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: $color-gray-lighter;
+    transition: all 0.3s;
+  }
+
+  &__link:hover {
+    color: $color-primary-darker;
+  }
+
+  &__link:active {
+    color: $color-primary-darkest;
+  }
+
+  &__icons-box {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__icon:link,
+  &__icon:visited {
+    color: $color-gray-main;
+    transition: all 0.3s;
+  }
+
+  &__icon:hover {
+    color: $color-primary-darker;
+    transform: scale(1.1);
+  }
+
+  &__icon:active {
+    color: $color-primary-darkest;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: $color-gray-lighter;
+  }
+}
