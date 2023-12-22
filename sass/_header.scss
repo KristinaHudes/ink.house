@@ -1,0 +1,76 @@
+.header {
+  background-color: $color-primary;
+
+  .container {
+    height: 10rem;
+    padding: 0 4rem;
+  }
+
+  .grid-cols--2 {
+    grid-template-columns: max-content 1fr;
+  }
+
+  .logo-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .nav-box {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .nav {
+    &__list {
+      display: flex;
+      gap: 5.5rem;
+    }
+
+    &__link {
+      &:link,
+      &:visited {
+        padding: 0 5px;
+        color: $color-gray-main;
+        transition: all 0.3s;
+        white-space: nowrap;
+        border-radius: 4px;
+      }
+
+      &:hover {
+        color: $color-primary-darker;
+      }
+
+      &:active {
+        color: $color-primary-darkest;
+      }
+
+      &:link.nav__link--active,
+      &:visited.nav__link--active {
+        color: $color-primary-darkest;
+        cursor: default;
+      }
+    }
+  }
+
+  .shopping-cart {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-primary-darker;
+    }
+
+    &:active {
+      color: $color-primary-darkest;
+    }
+
+    &.nav__link--active {
+      color: $color-primary-darkest;
+    }
+  }
+}

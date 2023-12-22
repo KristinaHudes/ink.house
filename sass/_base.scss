@@ -1,0 +1,70 @@
+// COLORS
+
+$color-primary: #e1ede6;
+$color-primary-lighter: #d4e8d9;
+$color-primary-darker: #598d66;
+$color-primary-darkest: #376b44;
+
+$color-secondary: #eedb6d;
+$color-secondary-lighter: #faeb97;
+$color-secondary-darker: #d9b949;
+$color-secondary-darkest: #a38314;
+
+$color-gray-main: #2c2d35;
+$color-gray-lighter: #86928b;
+$color-offwhite: #f4f6f5;
+$color-white: #fff;
+$color-black: #000;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 7rem 4rem;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+
+.grid-cols--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols--3 {
+  grid-template-columns: repeat(auto-fill, minmax(33rem, 1fr));
+  justify-items: center;
+}
+
+.grid-cols--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--heading-box {
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
+
+.body-fix {
+  overflow: hidden;
+}

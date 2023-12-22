@@ -1,0 +1,53 @@
+.section-new {
+  position: relative;
+  margin-top: 4rem;
+  background: url("../assets/img/img-background.jpg") center / cover;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba($color-black, 0.35);
+  }
+
+  .new__text-box {
+    position: relative;
+    z-index: 5;
+  }
+
+  .grid {
+    gap: 0;
+  }
+
+  .logo-box {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    img {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+
+  .heading-3 {
+    line-height: 1;
+    color: $color-offwhite;
+  }
+
+  .new__text {
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: $color-white;
+  }
+}
